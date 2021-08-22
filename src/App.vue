@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      test
     </div>
     <router-view/>
   </div>
@@ -27,6 +28,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #c7ac32;
 }
 </style>
